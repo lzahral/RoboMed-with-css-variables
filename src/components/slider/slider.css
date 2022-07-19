@@ -1,0 +1,53 @@
+.carousel-indicators {
+  float: right;
+}
+
+.carousel-indicators button {
+  position: static;
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  border-radius: 50%;
+  margin-bottom: 170px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-indicators button {
+    margin-bottom: 200px;
+  }
+}
+
+.carousel-indicators button:not(:first-child) {
+  margin-left: 0.6rem;
+  background-color: #29A9E14D;
+
+}
+
+.carousel-indicators button:first-child {
+  background-color: #29A9E14D;
+}
+
+.carousel-indicators .active {
+  background-color: #29A9E1;
+}
+
+.image1 {
+  position: absolute;
+  top: -50px;
+  left: 100px;
+  width: 100%;
+
+}
+
+.image2 {
+  position: absolute;
+  top: 150px;
+  right: -150px;
+  width: 120px;
+}
+
+.image3 {
+  position: absolute;
+  top: 75px;
+  left: -25px;
+  width: 33px;
+}

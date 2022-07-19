@@ -1,0 +1,19 @@
+$theme-colors: (
+    "primary": #29A9E1,
+    "secondary": #FFD964,
+    "light": #79899E,
+    "dark": #BCBCBC1A,
+);
+
+
+$border-radius: 8px;
+
+$nav-pills-link-active-bg: #29A9E10D;
+$nav-pills-link-active-color: #29A9E1 !important;
+
+$position-values: (
+    0: 0,
+    50: 70px,
+    100: 100%
+);
+@import "~bootstrap/scss/bootstrap";

@@ -1,0 +1,40 @@
+.slidTop {
+
+    position: absolute;
+    width: 100%;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 8px 8px 0px 0px;
+}
+
+.bg-text {
+    background: rgba(41, 169, 225, 0.1);
+    border-radius: 8px;
+}
+
+span {
+    font-size: small;
+    padding: 5px 12px 7px 0px;
+}
+
+.img1 {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.img2 {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .img1 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+}
