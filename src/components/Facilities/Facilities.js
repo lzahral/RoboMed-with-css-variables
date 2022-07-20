@@ -6,7 +6,7 @@ import Slids from './Slide';
 import vector1 from '../../images/bg-vectors/2.png'
 import vector2 from '../../images/bg-vectors/3.png'
 
-const Slider = () => {
+const Facilities = () => {
     return (
         <div className='position-relative mt-5 text-center'>
             <h6 className='text-primary'>Healtcare Facilities</h6>
@@ -24,4 +24,4 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default Facilities;

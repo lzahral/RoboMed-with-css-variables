@@ -9,10 +9,10 @@ import vector from '../images/bg-vectors/1.png'
 
 const MainPart = ({ theme }) => {
     return (
-        <div className=' position-relative div p-5'>
-            <Image src={vector} style={{ position: 'absolute ', top: '-0px', left: '0px', zIndex: '-1', width: '90%' }} />
+        <div className='overflow-hidden position-relative div p-5'>
+            <Image className='d-none d-md-inline' src={vector} style={{ position: 'absolute ', top: '-0px', left: '0px', zIndex: '-1', width: '100%' }} />
             <Row xs={1} md={2}>
-                <Col xs={8}>
+                <Col xs={12} md={6}>
                     <h1>Your Health Is</h1>
                     <h1>Our Top Priority</h1>
                     <p className='py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor ornare gravida non arcu. Pellentesque tempor et dictum ut</p>

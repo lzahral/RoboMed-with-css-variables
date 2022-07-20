@@ -10,7 +10,7 @@ import './slider.css'
 const Slider = () => {
     return (
         <div className='position-relative p-2 my-5 text-center '>
-            <Image className='image1' src={vector1} />
+            <Image className='d-none d-md-inline image1' src={vector1} />
             <Image className='image2' src={vector2} />
             <Image className='image3' src={vector3} />
             <h6 className='text-primary'>testimonial</h6>

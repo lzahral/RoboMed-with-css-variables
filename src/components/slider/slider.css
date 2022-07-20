@@ -12,7 +12,12 @@
 
 @media screen and (max-width: 768px) {
   .carousel-indicators button {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .carousel-indicators button {
+    margin-bottom: 170px;
   }
 }
 

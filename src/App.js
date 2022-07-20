@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 const App = () => {
   const [Theme, setTheme] = useState(false);
   return (
-    <div  id="example-app" className={Theme ? "light p-4" : "dark p-4"}>
+    <div  id="theme" className={Theme ? "light p-4" : "dark p-4"}>
       <Container>
         <NavbarComp theme={Theme} setTheme={setTheme}/>
         <MainPart theme={Theme}/>

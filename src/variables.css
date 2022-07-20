@@ -8,7 +8,7 @@ body,
   display: block;
 }
 
-#example-app {
+#theme {
   --primary-color: #334155;
   --color: #fff;
   --p-color: #D1DAE7CC;
@@ -16,39 +16,24 @@ body,
 
 }
 
-#example-app.light {
+#theme.light {
   --primary-color: #fff;
   --color: #334155;
   --p-color: #79899ECC;
   --border-color: #FFFFFF;
 }
 
-#example-app {
+#theme {
   display: block;
   width: 100%;
   background-color: var(--primary-color);
   color: var(--color);
   padding: var(--spacing);
-}
-
-h1 {
-  margin-top: 0;
+  overflow: hidden;
 }
 
 p{
   color: var(--p-color);
-}
-
-.btn,
-.btn:hover,
-.btn:active{
-  color: var(--border-color);
-  font-weight: 600;
-}
-
-.btn:hover{
-  color: var(--border-color);
-
 }
 
 .div {
@@ -75,4 +60,3 @@ p{
   height: 40px;
 
 }
-

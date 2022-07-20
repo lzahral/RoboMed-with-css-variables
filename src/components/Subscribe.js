@@ -15,7 +15,7 @@ const Subscribe = () => {
             <Col>
                 <h6 className='text-primary'>Newsletter Subscribe</h6>
                 <h4>To Get More News Subscribe Us</h4>
-                <div className='position-relative text-center'><Image className='position-absolute top-0 start-50' src={vector} /></div>
+                <div className='pt-3 position-relative text-center'><Image className='position-absolute top-0 start-50' src={vector} /></div>
             </Col>
             <Col>
                 <div className='p-2 rounded' style={{ backgroundColor: "#BCBCBC1A" }}>
