@@ -8,7 +8,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { IoMail, IoLocationSharp } from "react-icons/io5"
 
 const Footer = () => {
-    const socialMedia = [<RiWhatsappFill className='fs-5' />, <FaTelegramPlane className='fs-5' />, <RiYoutubeFill className='fs-5' />]
+    const socialMedia = [<RiInstagramFill className='fs-5' />, <RiWhatsappFill className='fs-5' />, <FaTelegramPlane className='fs-5' />, <RiYoutubeFill className='fs-5' />]
     return (
         <div className='overflow-hidden div mt-5'>
             <Image className='d-none d-md-inline' src={vector} style={{ position: 'absolute ', bottom: '0px', zIndex: '1', width: '100%' }} />
@@ -17,9 +17,7 @@ const Footer = () => {
                     <h3>RoboMed</h3>
                     <p className='py-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae</p>
                     <Row xs={2} >
-
-                    <button className='iconBtn mx-2'><RiInstagramFill className='fs-5' /></button>
-                    {socialMedia.map(icon =><button className='iconBtn mx-2' key={socialMedia.indexOf(icon)}>{icon}</button>)}
+                        {socialMedia.map(icon =><button className='iconBtn m-2' key={socialMedia.indexOf(icon)}>{icon}</button>)}
                     </Row>
                 </Col>
                 <Col>

@@ -32,7 +32,7 @@
 }
 
 .carousel-indicators .active {
-  background-color: #29A9E1;
+  background-color: #29A9E1 !important;
 }
 
 .image1 {
