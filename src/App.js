@@ -9,20 +9,20 @@ import Subscribe from "./components/Subscribe";
 import Footer from "./components/Footer";
 
 const App = () => {
-   const [theme, setTheme] = useState(false);
-   return (
-      <div id="theme" className={theme ? "light p-4" : "dark p-4"}>
-         <Container>
-            <NavbarComp theme={theme} setTheme={setTheme} />
-            <MainPart theme={theme} />
-            <Facilities />
-            <Slider />
-            <Team />
-            <Subscribe />
-            <Footer />
-         </Container>
-      </div>
-   );
+    const [theme, setTheme] = useState(false);
+    return (
+        <div id="theme" className={theme ? "light p-4" : "dark p-4"}>
+            <Container>
+                <NavbarComp theme={theme} setTheme={setTheme} />
+                <MainPart theme={theme} />
+                <Facilities />
+                <Slider />
+                <Team />
+                <Subscribe />
+                <Footer />
+            </Container>
+        </div>
+    );
 };
 
 export default App;
